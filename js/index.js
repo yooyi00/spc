@@ -285,14 +285,10 @@ $(function () {
 
     if (sc >= con2 && sc <= con3) {
       $("#con03").stop().animate({ "margin-top": "0", opacity: "1" }, 800);
-    } else {
-      $("#con03").css({ "margin-top": "100px", opacity: "0" });
     }
 
     if (sc >= con3 && sc <= con4) {
       $("#con04").stop().animate({ "margin-left": "0" }, 800);
-    } else {
-      $("#con04").css({ "margin-left": "1000px" });
     }
   });
 });
